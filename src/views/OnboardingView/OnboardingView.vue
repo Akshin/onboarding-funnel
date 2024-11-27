@@ -26,4 +26,8 @@ function changeStep(toStep: number): void {
   </div>
 </template>
 
-<style></style>
+<style lang="scss" scoped>
+.onboarding-page-wrapper {
+  height: 100%;
+}
+</style>

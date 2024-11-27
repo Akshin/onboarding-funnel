@@ -24,8 +24,8 @@ const router = useRouter()
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
-  background: linear-gradient(to bottom, #fdfbfb, #daf2fe);
+  height: 100%;
+  background: linear-gradient(to bottom, #fdfbfb, #f3f9fc);
   font-family: 'Poppins', sans-serif;
   color: #333;
   text-align: center;

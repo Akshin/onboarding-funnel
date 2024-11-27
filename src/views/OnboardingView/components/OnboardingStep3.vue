@@ -6,7 +6,7 @@ const emits = defineEmits<IOnboardingStepsEmits>()
 
 <template>
   <div class="onboarding-step">
-    <video autoplay muted loop class="background-video">
+    <video playsinline autoplay muted loop preload="auto" class="background-video">
       <source src="@/assets/videos/step3.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>

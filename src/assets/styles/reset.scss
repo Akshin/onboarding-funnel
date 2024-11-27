@@ -66,3 +66,11 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.background-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.background-video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
